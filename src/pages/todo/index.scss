@@ -1,0 +1,40 @@
+.todo-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  .input {
+    flex: 1;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}
+
+.todo-item {
+  background: white;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  .done {
+    text-decoration: line-through;
+    color: #999;
+  }
+}

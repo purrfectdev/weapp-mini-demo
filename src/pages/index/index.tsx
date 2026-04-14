@@ -36,7 +36,8 @@ export default function Index() {
           clickable
           isLink
            icon={<Shop />}
-          onClick={() => Taro.navigateTo({ url: "/pages/todo/index" })}
+          // onClick={() => Taro.navigateTo({ url: "/pages/todo/index" })}
+          onClick={() => Taro.navigateTo({ url: "/subpackages/todo/pages/index/index" })}
         />
         <Cell
           title="二维码生成"
@@ -44,15 +45,17 @@ export default function Index() {
           clickable
           isLink
           icon={<Qr />}
-          onClick={() => Taro.navigateTo({ url: "/pages/qrcode/index" })}
+          // onClick={() => Taro.navigateTo({ url: "/pages/qrcode/index" })}
+          onClick={() => Taro.navigateTo({ url: "/subpackages/qrcode/pages/index/index" })}
         />
         <Cell
-          title="手写签名(开发中...)"
+          title="手写签名"
           brief="手写汉字签名，保存为图片"
           clickable
           isLink
           icon={<Edit />}
-          onClick={() => Taro.navigateTo({ url: '/pages/signature/index' })}
+          // onClick={() => Taro.navigateTo({ url: '/pages/signature/index' })}
+          onClick={() => Taro.navigateTo({ url: '/subpackages/signature/pages/index/index' })}
         />
       </View>
 

@@ -52,7 +52,7 @@ export default function Index() {
           clickable
           isLink
           icon={<Edit />}
-          // onClick={() => Taro.navigateTo({ url: 'pages/signature/index' })}
+          onClick={() => Taro.navigateTo({ url: '/pages/signature/index' })}
         />
       </View>
 

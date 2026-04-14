@@ -3,6 +3,7 @@ export default defineAppConfig({
     "pages/index/index",
     "pages/todo/index",
     "pages/qrcode/index",
+    "pages/signature/index",
   ],
   // subPackages: [
   //   {
